@@ -34,6 +34,7 @@
 		AD5B499A2D911CDC0000654E /* SignInAlternativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B49992D911C8A0000654E /* SignInAlternativeViewController.swift */; };
 		AD5B499C2D9120BF0000654E /* signInAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B499B2D9120B90000654E /* signInAssembly.swift */; };
 		AD5B499E2D9121600000654E /* AuthAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B499D2D9121500000654E /* AuthAssembly.swift */; };
+		AD75BF592DB6CEFF00608292 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75BF582DB6CEF700608292 /* AuthCoordinator.swift */; };
 		ADB7A9EB2D8CC97A009F3767 /* LaunchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7A9EA2D8CC965009F3767 /* LaunchAssembly.swift */; };
 		ADB7A9ED2D8CCA17009F3767 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7A9EC2D8CCA10009F3767 /* PreviewController.swift */; };
 		ADB7A9F02D8CCCD7009F3767 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ADB7A9EF2D8CCCD7009F3767 /* SnapKit */; };
@@ -81,6 +82,7 @@
 		AD5B49992D911C8A0000654E /* SignInAlternativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAlternativeViewController.swift; sourceTree = "<group>"; };
 		AD5B499B2D9120B90000654E /* signInAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInAssembly.swift; sourceTree = "<group>"; };
 		AD5B499D2D9121500000654E /* AuthAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAssembly.swift; sourceTree = "<group>"; };
+		AD75BF582DB6CEF700608292 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		ADB7A9EA2D8CC965009F3767 /* LaunchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAssembly.swift; sourceTree = "<group>"; };
 		ADB7A9EC2D8CCA10009F3767 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		ADB7A9F22D8CCE35009F3767 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 		ADFE4C102D8901F50001F0DA /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				AD75BF582DB6CEF700608292 /* AuthCoordinator.swift */,
 				AD5B49942D911A700000654E /* OnboardingCoordinator.swift */,
 				AD5B498B2D90BF4B0000654E /* LaunchCoordinator.swift */,
 				ADFE4C0E2D8901BE0001F0DA /* Coordinator.swift */,
@@ -421,6 +424,7 @@
 				ADFE4C192D89031C0001F0DA /* Log+Extension.swift in Sources */,
 				ADFE4C132D8902230001F0DA /* Dependencies.swift in Sources */,
 				ADFE4C072D8901BA0001F0DA /* AppCoordinator.swift in Sources */,
+				AD75BF592DB6CEFF00608292 /* AuthCoordinator.swift in Sources */,
 				AD282F3F2DB4A6CD0054BE83 /* ConfirmationViewController.swift in Sources */,
 				AD5B499E2D9121600000654E /* AuthAssembly.swift in Sources */,
 				AD5B49912D90C0C40000654E /* OnboardingViewController.swift in Sources */,

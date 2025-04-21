@@ -49,7 +49,10 @@ final class AppCoordinator: AppCoordinatorProtocol {
     }
     
     func showAuthFlow() {
-        
+        let authCoordinator = AuthCoordinator(navigationController, dependencies: dependencies)
+        authCoordinator.finishDelegate = self
+        authCoordinator.start()
+        childCoordinators.append(authCoordinator)
     }
     
     func showMainFlow() {
@@ -72,9 +75,9 @@ extension AppCoordinator: CoordinatorFinishDelegate {
             }
         case .onboarding:
             userDefaultsRepository.setOnboardingComplete()
-            showMainFlow()
-        case .auth:
             showAuthFlow()
+        case .auth:
+            showMainFlow()
         case .app, .tabbar: break
         }
     }
