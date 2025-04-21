@@ -11,6 +11,7 @@ final class NumberAuthViewController: UIViewController {
     enum Event {
         case onNextTapped
         case back
+        case test
     }
     var onCountrySelected: ((Country) -> Void)?
     var didSendEventHandler: ((Event) -> Void)?
